@@ -1,0 +1,101 @@
+
+/*==========================================================
+    Template Name: Mim Personal Portfolio Template
+    Created By: RegalTheme
+    Envato Profile: https://themeforest.net/user/regaltheme
+    Website: http://regaltheme.com
+    Description: Mim is Fully Responsive Personal Portfolio Template with awesome features.
+    Version: v1.1
+    Support: http://regaltheme.com/support
+============================================================*/
+
+
+/* google fonts
+========================== */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+
+/* css files
+====================== */
+@import url('assets/css/bootstrap.min.css');
+@import url('assets/css/material-design-iconic-font.min.css');
+@import url('assets/css/slick.min.css');
+@import url('assets/css/jquery.fancybox.css');
+@import url('assets/css/style.css');
+@import url('assets/css/responsive.css');
+
+/* font awesome icon
+============================*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+:root {
+    --color-underline-link: #dde0e0;
+    --color-font: #161b3d;
+    --color-font-button: #161b3d;
+    --color-alert-red: #f74856;
+    --color-alert-orange: #ff970d;
+    --color-body: #fff;
+    --color-featured-label: #fff;
+    --color-featured-label-mobile: #161b3d;
+    --color-search-icon: #161b3d;
+    --color-underline-link: #dde0e0;
+    --color-table-border: #dde0e0;
+    --color-figcaption: #5b6572;
+    --color-hover-dot: #d3d5dc;
+    --color-bg-textarea: #f2f3f7;
+    --color-bg-code: rgba(40, 41, 54, 1);
+    --color-bg-tag: #f4f4f4;
+    --color-bg-featured-label: #161b3d;
+    --color-bg-featured-label-mobile: #f4f4f4;
+    --color-bg-elements: #f7f7f7;
+    --color-bg-button-membership: #e2e5ed;
+    --color-bg-notification-success: #23bd38;
+    --color-elements-one: #f0f0f0;
+    --color-elements-two: #e2e5ed;
+    --color-elements-white: #fff;
+    --gradient-gray-start: #e2e5ed;
+    --gradient-gray-end: #f1f4f4;
+  }
+
+pre {
+    background: rgba(40, 41, 54, 1) !important;
+}
+pre code {
+    color: #e1e1e6;
+}
+code {
+    background: rgba(40, 41, 54, 1);
+    color: #e1e1e6;
+}
+a {
+    background-color: transparent;
+}
+.post-wrap a {
+    transition: all 0.2s ease;
+    border-bottom: 2px solid var(--color-underline-link);
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: var(--color-font);
+    outline: 0;
+}
+.vglnk{
+    color: var(--color-body);
+}
+#btn {
+    color: var(--color-underline-link);
+}
+#btn2 {
+    color: var(--color-underline-link);
+}
+blockquote p {
+    padding: 1rem;
+    background: rgb(245, 245, 250);
+    border-radius: 5px;
+}
+.gatsby-highlight {
+    position: relative;
+}
+.eiqe2b57 {
+    color: #161b3d;
+}
